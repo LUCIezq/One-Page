@@ -43,6 +43,10 @@ img {
     display: block;
 }
 
+body.nav__active {
+    overflow: hidden;
+}
+
 .header {
     width: 100%;
     display: flex;
@@ -406,18 +410,18 @@ img {
     }
 
     .grid__title {
-        font-size: clamp(2em,3vw + 1em,3em);
+        font-size: clamp(2em, 3vw + 1em, 3em);
         text-align: start;
     }
 
     .grid__paragraph {
         text-align: start;
         line-height: 1.6;
-        font-size: clamp(.92em,1vw + .7em,1.5em);
+        font-size: clamp(.92em, 1vw + .7em, 1.5em);
     }
 
-    .grid__link{
-        font-size: clamp(.92em,1vw + .7em,1.5em);
+    .grid__link {
+        font-size: clamp(.92em, 1vw + .7em, 1.5em);
     }
 
     .section__container {
